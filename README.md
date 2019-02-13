@@ -1,0 +1,1 @@
+# Operaciju_tyrimas_taikymai
