@@ -32,5 +32,10 @@ tonos isdavimo islaidos c1=c*t
 rasti optimalia apimti q ir vezimo perioda t,
 minimizuojant islaidas
 
-Uzdavinio tikslo funkcija
+1) Modelis
+optimizavimas q ir t.
+kintamieji X = (q,t)
+leistinoji sritis, apribojimai - t>0, q>0
+
+2) Uzdavinio tikslo funkcija
 minF(q,t) = qt(c1+c2)
