@@ -21,7 +21,7 @@ Optimizavimo metodai
 Lokalus ir globalus minimumai
 Globalus minimumas f3 tinka, kai vieno sprendinio reikia. Globalus minimumas - pats maziausias. Lokalus - jei yra uz ji mazesniu.
 
-Per paskaita Pirma uzduoti padaryt - prekybos bazes uzdavinys.
+Per paskaita Pirma uzduoti padaryt - prekybos bazes uzdavinys. Vasario 28 diena i savo githuba ikelt.
 
 isduoti kiekv diena po b* tonu prekiu
 saugoti gali ir gauti kas t parų po q tonu
@@ -33,7 +33,7 @@ rasti optimalia apimti q ir vezimo perioda t,
 minimizuojant islaidas
 
 1) Modelis
-Optimizavimas q ir t.
+Optimizavimas minimizuojant q ir t.
 Kintamieji X = (q,t)
 Apribojimai: 
   t>0, q>0,
