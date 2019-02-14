@@ -1,9 +1,22 @@
 Paskaita 20190214
 
-Optimizavimas, is skaidriu medziaga
+Optimizavimas, is skaidriu medziaga opt_pask_1_1
 
 Pirklio uzdavinys - trumpiausio kelio paieska, nenaudoti to pacio kelio.
 Itraukiant apribojimus uzdavinys pasudetingeja, lengvesnis - be apribojimu.
 Optimizuoti - rasti geriausia (optimalu) sprendini. Vieni gali ieskot minimumo, kiti maksimumo, sprendziant ta pati uzdavini.
 Konstrukcijos sudetingumas, pvz kvadratinis. Sudetingumas dideja eksponentiskai.
 Optimizavimas siekia kuo labiau sumazinti galimu kandidatu skaiciu.
+
+1 uzduotis - tikslus uzduoties formulavimas - ka mes norim gauti, ar maksimuma (didziausia nauda) ar minimuma (maziausia kaina).
+2 uzduotis - kuriamas adekvatus matematinis modelis. Kintamuju vektorius pvz paduodamas dietos uzdaviny, paduodama tarkim gelezis, 
+magnis, cinkas ir tada skaiciuojama.
+3 uzduotis - uzdavinio sprendimas. 
+
+Optimizavimo metodai
+-Daugiakriterinis f(g(x))
+-Stochastinis - atsitiktinis
+-Akciju birza - losimu teorija
+
+Lokalus ir globalus minimumai
+Globalus minimumas f3 tinka, kai vieno sprendinio reikia. Globalus minimumas - pats maziausias. Lokalus - jei yra uz ji mazesniu.
