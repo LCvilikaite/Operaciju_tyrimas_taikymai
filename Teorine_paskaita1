@@ -1,0 +1,9 @@
+Paskaita 20190214
+
+Optimizavimas, is skaidriu medziaga
+
+Pirklio uzdavinys - trumpiausio kelio paieska, nenaudoti to pacio kelio.
+Itraukiant apribojimus uzdavinys pasudetingeja, lengvesnis - be apribojimu.
+Optimizuoti - rasti geriausia (optimalu) sprendini. Vieni gali ieskot minimumo, kiti maksimumo, sprendziant ta pati uzdavini.
+Konstrukcijos sudetingumas, pvz kvadratinis. Sudetingumas dideja eksponentiskai.
+Optimizavimas siekia kuo labiau sumazinti galimu kandidatu skaiciu.
