@@ -40,5 +40,5 @@ Apribojimai:
   naujos prekes vezamos paskutine anksciau 
   atveztu prekiu isdavimo diena
 
-2) Uzdavinio tikslo funkcija
+2) Uzdavinio tikslo funkcija galbut tokia:
 minF(X) = minF(q,t) = qt(c1+c2)
