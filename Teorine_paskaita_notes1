@@ -33,9 +33,12 @@ rasti optimalia apimti q ir vezimo perioda t,
 minimizuojant islaidas
 
 1) Modelis
-optimizavimas q ir t.
-kintamieji X = (q,t)
-leistinoji sritis, apribojimai - t>0, q>0
+Optimizavimas q ir t.
+Kintamieji X = (q,t)
+Apribojimai: 
+  t>0, q>0,
+  naujos prekes vezamos paskutine anksciau 
+  atveztu prekiu isdavimo diena
 
 2) Uzdavinio tikslo funkcija
-minF(q,t) = qt(c1+c2)
+minF(X) = minF(q,t) = qt(c1+c2)
