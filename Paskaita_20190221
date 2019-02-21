@@ -5,3 +5,15 @@ Ekstremumas - balno taskas, arba aprezta aibe, minimumo arba maksimumo taskas
 Kintamiesiems X=(x1, .., xn) neformuluojami jokie apribojimai,t.y. leistinoji sritis sutampa su visa n-mate erdve R^n.
 
 OPENP matlab biblioteka
+
+Hiperbolinis paraboloidas, minimumas, lokalūs kandidatai.
+
+Vienmatis optimizavimas
+
+Intervalo dalijimo pusiau metodas - jei dalys per dideles - dalis galim atmest. Intervalo dalijimo metodas aprasytas skaidrese. 
+Atmetinejam intervalo puse ir perkeliam xm taska i viduri.
+
+1 zingsnis. 
+
+Auksinio pjuvio metodas - atliekam maziau paiesku, tokku budu sprendima galime rasti sparciau. Veikia sparciau nei intervalo 
+dalijimo pusiau.
