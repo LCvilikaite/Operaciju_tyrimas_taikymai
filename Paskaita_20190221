@@ -2,3 +2,6 @@
 Optimizavimas be apribojimu
 
 Ekstremumas - balno taskas, arba aprezta aibe, minimumo arba maksimumo taskas
+Kintamiesiems X=(x1, .., xn) neformuluojami jokie apribojimai,t.y. leistinoji sritis sutampa su visa n-mate erdve R^n.
+
+OPENP matlab biblioteka
