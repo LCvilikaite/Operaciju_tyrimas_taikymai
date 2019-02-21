@@ -11,9 +11,10 @@ Hiperbolinis paraboloidas, minimumas, lokalūs kandidatai.
 Vienmatis optimizavimas
 
 Intervalo dalijimo pusiau metodas - jei dalys per dideles - dalis galim atmest. Intervalo dalijimo metodas aprasytas skaidrese. 
-Atmetinejam intervalo puse ir perkeliam xm taska i viduri.
-
-1 zingsnis. 
+Atmetinejam intervalo puse ir perkeliam xm taska i viduri. Intervalo dalijimo pusiau metodu galim "prasokti" geriausia sprendini.
 
 Auksinio pjuvio metodas - atliekam maziau paiesku, tokku budu sprendima galime rasti sparciau. Veikia sparciau nei intervalo 
-dalijimo pusiau.
+dalijimo pusiau. Auksinio pjuvio metodu nebutinai pusiau dalinam, keiciam pjuvi. Dalinam atkarpa i dvi nelygias dalis. jei sprendimas 
+yra mazesnej daly, ismetam likusia sriti. Dalinam per ta pati koeficienta.
+
+Skaidrej apie I iteracija klaida - 31.6 yra f(y2)
