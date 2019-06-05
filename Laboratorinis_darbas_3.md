@@ -29,10 +29,10 @@ Reikšmė  | "A" | "B" | "C" | "D" |
  ---- | ---- | ---- |  ---- | ---- | 
 Vieno darbininko darbo laikas vienos rūšies gaminio gamybai, (val.) | 5   |  4  |   3  |   6
 
-6     5     5     5
+1 klasės sąnaudos vienam gaminiui |6  |   5  |   5 |    5
 
-14     9     7     3
+2 klasės sąnaudos vienam gaminiui |14  |   9  |   7  |   3
 
-2     7     5     1
+3 klasės sąnaudos vienam gaminiui |2  |   7   |  5  |   1
 
-61    50    23   100
+Pardavimo kaina, vnt. |61  |  50  |  23  | 100
