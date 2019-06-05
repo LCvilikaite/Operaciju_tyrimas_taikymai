@@ -27,7 +27,7 @@ disp(pard_kaina);
 ```
  | "A" | "B" | "C" | "D" |
  ---- | ---- |  ---- | ---- | 
-5     4     3     6
+Vieno darbininko darbo laikas vienos rūšies gaminio gamybai, (val.) | 5   |  4  |   3  |   6
 
 6     5     5     5
 
