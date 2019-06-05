@@ -4,7 +4,7 @@
 **Tikslas** – apskaičiuoti maksimalų pelną, kurį gaus gamykla.
 Pagal duotą sąlygą apskaičiuojame lentelės reikšmes:
 
-``Matlab
+```Matlab
 darbo_laikas  = [mod(20113428,2)+5 mod(20113428,3)+4 mod(20113428,4)+1 mod(20113428,5)+5];
 disp("darbo_laikas");
 disp(darbo_laikas);
