@@ -25,7 +25,7 @@ pard_kaina  = [mod(20182746,11)+60 mod(20182746,6)+50 mod(20182746,21)+20 mod(20
 disp("pard_kaina");
 disp(pard_kaina);
 ```
-"" | "A" | "B" | "C" | "D" |
+      | "A" | "B" | "C" | "D" |
  ---- | ---- | ---- |  ---- | ---- | 
 Vieno darbininko darbo laikas vienos rūšies gaminio gamybai, (val.) | 5   |  4  |   3  |   6
 
