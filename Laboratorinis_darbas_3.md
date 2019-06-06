@@ -41,11 +41,11 @@ disp("gamin_sk_apr");
 disp(gamin_sk_apr);
 ```
 Įsistatome apskaičiuotas reikšmes į sąlygą:
-Gamybos terminas – dvi darbo savaitės, t.y., 10 darbo. Darbininkų darbo laiko ištekliai per 10 darbo dienų – 780 val.
-Analogišką nelygybę 1 klasės sąnaudoms. Per dvi darbo savaites turi būti sunaudota ne daugiau kaip 492.
-Tokia pat nelygybę 2 klasės sąnaudoms. Per dvi darbo savaites turi būti sunaudota ne daugiau kaip 946, jų kaina yra 15 eurų už vienetą.
-3 klasės sąnaudos apribojimų neturi, jų kaina yra 50 eurų už sunaudotą vienetą.
-Apribojimas: gaminių A, B, C ir D per 10 dienų turi būti pagaminta > negu 346.
+Gamybos terminas – dvi darbo savaitės, t.y., 10 darbo. Darbininkų darbo laiko ištekliai per 10 darbo dienų – 780 val.  
+Analogišką nelygybę 1 klasės sąnaudoms. Per dvi darbo savaites turi būti sunaudota ne daugiau kaip 492.  
+Tokia pat nelygybę 2 klasės sąnaudoms. Per dvi darbo savaites turi būti sunaudota ne daugiau kaip 946, jų kaina yra 15 eurų už vienetą.  
+3 klasės sąnaudos apribojimų neturi, jų kaina yra 50 eurų už sunaudotą vienetą.  
+Apribojimas: gaminių A, B, C ir D per 10 dienų turi būti pagaminta > negu 346.  
 
 # Kintamųjų lentelė:
 Reikšmė  | "A" | "B" | "C" | "D" |
