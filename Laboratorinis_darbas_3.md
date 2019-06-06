@@ -32,3 +32,6 @@ Vieno darbininko darbo laikas vienos rūšies gaminio gamybai, (val.) | 5   |  4
 2 klasės sąnaudos vienam gaminiui | 14  |   9  |   7  |   3
 3 klasės sąnaudos vienam gaminiui | 2  |   7   |  5  |   1
 Pardavimo kaina, vnt. | 61  |  50  |  23  | 100
+
+Gamybos terminas – dvi darbo savaitės, t.y., 10 darbo. Darbininkų darbo laiko ištekliai per 10 darbo dienų – 780 val.
+Analogišką nelygybę 1 klasės sąnaudoms. Per dvi darbo savaites turi būti sunaudota ne daugiau kaip 400 + 2*stud_id%100.
