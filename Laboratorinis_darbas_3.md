@@ -56,6 +56,13 @@ Vieno darbininko darbo laikas vienos rūšies gaminio gamybai, (val.) | 5   |  4
 3 klasės sąnaudos vienam gaminiui | 2  |   7   |  5  |   1
 Pardavimo kaina, vnt. | 61  |  50  |  23  | 100
 
+## Užduoties matematinė išraiška
+
+ ![](http://latex.codecogs.com/gif.latex?5x_%7B1%7D&plus;4x_%7B2%7D&plus;1x_%7B3%7D&plus;8x_%7B4%7D%5Cleq%20780)<br>
+ ![](http://latex.codecogs.com/gif.latex?9x_%7B1%7D&plus;7x_%7B2%7D&plus;5x_%7B3%7D&plus;5x_%7B4%7D%5Cleq%20456)<br>
+ ![](http://latex.codecogs.com/gif.latex?12x_%7B1%7D&plus;7x_%7B2%7D&plus;7x_%7B3%7D&plus;3x_%7B4%7D%5Cleq%20928)<br>
+ ![](http://latex.codecogs.com/gif.latex?-x_%7B1%7D-x_%7B2%7D-x_%7B3%7D-x_%7B4%7D%5Cleq%20-328)<br>
+
 ## m failas
 
 ```Matlab 
