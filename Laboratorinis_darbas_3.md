@@ -58,7 +58,7 @@ Pardavimo kaina, vnt. | 61  |  50  |  23  | 100
 
 ## Užduoties matematinė išraiška
 
- ![](http://latex.codecogs.com/gif.latex?5x_%7B1%7D&plus;4x_%7B2%7D&plus;1x_%7B3%7D&plus;8x_%7B4%7D%5Cleq%20780)<br>
+ ![](<a href="https://www.codecogs.com/eqnedit.php?latex=5x_{1}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?5x_{1}" title="5x_{1}" /></a>)<br>
  ![](http://latex.codecogs.com/gif.latex?9x_%7B1%7D&plus;7x_%7B2%7D&plus;5x_%7B3%7D&plus;5x_%7B4%7D%5Cleq%20456)<br>
  ![](http://latex.codecogs.com/gif.latex?12x_%7B1%7D&plus;7x_%7B2%7D&plus;7x_%7B3%7D&plus;3x_%7B4%7D%5Cleq%20928)<br>
  ![](http://latex.codecogs.com/gif.latex?-x_%7B1%7D-x_%7B2%7D-x_%7B3%7D-x_%7B4%7D%5Cleq%20-328)<br>
