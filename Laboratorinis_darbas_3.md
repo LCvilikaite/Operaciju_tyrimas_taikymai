@@ -4,26 +4,42 @@
 ## Užduoties aprašymas
 **Tikslas** – apskaičiuoti maksimalų pelną, kurį gaus gamykla.
 
-Pagal duotą sąlygą apskaičiuojame lentelės reikšmes:
+Pagal duotą sąlygą apskaičiuojame lentelės ir apribojimų reikšmes:
 
 ```Matlab
-%clc;
-%clear;
-darbo_laikas  = [mod(20182746,2)+5 mod(20182746,3)+4 mod(20182746,4)+1 mod(20182746,5)+5];
+
+%apsibrėžiame kintamuosius iš sąlygos
+darbo_laikas  = [5+mod(20182746,2) 4+mod(20182746,3) 1+mod(20182746,4) 5+mod(20182746,5)];
+%išvedame rezultatus su disp funkcija
 disp("darbo_laikas");
 disp(darbo_laikas);
-sanaudos_1  = [mod(20182746,7)+3 mod(20182746,5)+4 mod(20182746,9)+2 mod(20182746,3)+5];
+sanaudos_1  = [3+mod(20182746,7) 4+mod(20182746,5) 2+mod(20182746,9) 5+mod(20182746,3)];
 disp("sanaudos_1");
 disp(sanaudos_1);
-sanaudos_2  = [mod(20182746,13)+2 mod(20182746,4)+7 mod(20182746,9)+4 mod(20182746,3)+3];
+sanaudos_2  = [2+mod(20182746,13) 7+mod(20182746,4) 4+mod(20182746,9) 3+mod(20182746,3)];
 disp("sanaudos_2");
 disp(sanaudos_2);
-sanaudos_3  = [mod(20182746,6)+2 mod(20182746,7)+4 mod(20182746,6)+5 mod(20182746,3)+1];
+sanaudos_3  = [2+mod(20182746,6) 4+mod(20182746,7) 5+mod(20182746,6) 1+mod(20182746,3)];
 disp("sanaudos_3");
 disp(sanaudos_3);
-pard_kaina  = [mod(20182746,11)+60 mod(20182746,6)+50 mod(20182746,21)+20 mod(20182746,36)+70];
+pard_kaina  = [60+mod(20182746,11) 50+mod(20182746,6) 20+mod(20182746,21) 70+mod(20182746,36)];
 disp("pard_kaina");
 disp(pard_kaina);
+%apsibrėžiame apribojimus
+%apribojimas gamybos terminui
+gamyb_apr = 780;
+%apribojimas pirmosioms sąnaudoms, gauname 492
+san_apr1 = 400 + 2* mod(20182746,100);
+disp("san_apr1");
+disp(san_apr1);
+%apribojimas antrosioms sąnaudoms, gauname 946
+san_apr2 = 700 + mod(20182746,300);
+disp("san_apr2");
+disp(san_apr2);
+%apribojimas gaminiams, gauname 346
+gamin_sk_apr = 250 + mod(20182746,150);
+disp("gamin_sk_apr");
+disp(gamin_sk_apr);
 ```
 Reikšmė  | "A" | "B" | "C" | "D" |
  ---- | ---- | ---- |  ---- | ---- | 
