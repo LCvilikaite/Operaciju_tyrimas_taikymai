@@ -47,7 +47,7 @@ Tokia pat nelygybę 2 klasės sąnaudoms. Per dvi darbo savaites turi būti suna
 3 klasės sąnaudos apribojimų neturi, jų kaina yra 50 eurų už sunaudotą vienetą.  
 Apribojimas: gaminių A, B, C ir D per 10 dienų turi būti pagaminta > negu 346.  
 
-# Kintamųjų lentelė:
+## Kintamųjų lentelė:
 Reikšmė  | "A" | "B" | "C" | "D" |
  ---- | ---- | ---- |  ---- | ---- | 
 Vieno darbininko darbo laikas vienos rūšies gaminio gamybai, (val.) | 5   |  4  |   3  |   6
@@ -55,5 +55,37 @@ Vieno darbininko darbo laikas vienos rūšies gaminio gamybai, (val.) | 5   |  4
 2 klasės sąnaudos vienam gaminiui | 14  |   9  |   7  |   3
 3 klasės sąnaudos vienam gaminiui | 2  |   7   |  5  |   1
 Pardavimo kaina, vnt. | 61  |  50  |  23  | 100
+
+## m failas
+
+```Matlab 
+%ciklo ilgis
+n = length(pard_kaina); 
+%pridedame gaminį matriciniu pavidalu
+gam = [1 1 1 1];
+%jungiame masyvus vertikaliai su vertcat funkcija
+koef = vertcat(darbo_laikas, sanaudos_1, sanaudos_2, -gam);
+apribojimai = [gamyb_apr san_apr1 san_apr2 -gamin_sk_apr];
+%viršutinė riba
+virs = []; 
+%apatinė riba
+apat = zeros(n,1); 
+%kuriame optimizavimo struktūrą
+options = optimset; 
+%išvedame kiekvieną iteraciją į ekraną
+options.Display = 'iter';
+%pasirenkame algoritmą
+options.Algorithm = 'interior-point-legacy';
+%pritaikome linprog algoritmą
+[x,fval,exitflag,output,lambda] = linprog(-pard_kaina,koef,apribojimai,[],[],apat,virs,[],options);
+%Lagranžo daugikliai nelygybei
+Lagranzo = lambda.ineqlin;
+%ciklas iteracijų išvedimui į ekraną
+for i=1:n 
+    fprintf('\n x%1.0f = %8.4f',i,x(i));
+end
+fprintf('\n %8.4f\n',-fval);
+```
+
 
 
