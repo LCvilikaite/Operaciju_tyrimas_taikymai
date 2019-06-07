@@ -41,7 +41,7 @@ disp("gamin_sk_apr");
 disp(gamin_sk_apr);
 ```
 
-## Lentelės ir apribojimų reikšmės:
+## Lentelės ir apribojimų reikšmės
 
 ```Matlab
 darbo_laikas  
@@ -68,7 +68,7 @@ Tokia pat nelygybę 2 klasės sąnaudoms. Per dvi darbo savaites turi būti suna
 3 klasės sąnaudos apribojimų neturi, jų kaina yra 50 eurų už sunaudotą vienetą.  
 Apribojimas: gaminių A, B, C ir D per 10 dienų turi būti pagaminta > negu 346.  
 
-## Kintamųjų lentelė:
+## Kintamųjų lentelė
 Reikšmė  | "A" | "B" | "C" | "D" |
  ---- | ---- | ---- |  ---- | ---- | 
 Vieno darbininko darbo laikas vienos rūšies gaminio gamybai, (val.) | 5   |  4  |   3  |   6
@@ -114,7 +114,7 @@ for i=1:n
 end
 fprintf('\n %8.4f\n',-fval);
 ```
-## m failo rezultatai:  
+## m failo rezultatai 
 
 ```Matlab
   Residuals:   Primal     Dual     Duality    Total  
@@ -140,7 +140,7 @@ Exiting: One or more of the residuals, duality gap, or total relative error
  x4 = 168.4804  
  24482.0760  
 ```
-## Rezultatų apibendrinimas:
+## Rezultatų apibendrinimas  
 
 X reikšmės | x1  | x2  | x3 | x4
  ---- | ---- | ---- |  ---- | ---- | 
@@ -186,7 +186,7 @@ gamin_sk_apr_E = 250 + mod(20182746,150);
 disp("gamin_sk_apr_E");
 disp(gamin_sk_apr_E);
 ```
-## Lentelės ir apribojimų reikšmės su "E":
+## Lentelės ir apribojimų reikšmės su "E"  
 
 ```Matlab
 darbo_laikas_E
@@ -213,7 +213,7 @@ san_apr2_E
 gamin_sk_apr_E
    346
 ```
-## Kintamųjų lentelė su "E":
+## Kintamųjų lentelė su "E"  
 Reikšmė  | "A" | "B" | "C" | "D" | "E" |
  ---- | ---- | ---- |  ---- | ---- | ---- |
 Vieno darbininko darbo laikas vienos rūšies gaminio gamybai, (val.) | 5   |  4  |   3  |   6  |  9
@@ -252,7 +252,7 @@ for i=1:n
 end
 fprintf('\n %8.4f\n',-fval);
 ```
-## m failo rezultatai su "E":
+## m failo rezultatai su "E"  
 
 ```Matlab
 Residuals:   Primal     Dual     Duality    Total
@@ -279,12 +279,12 @@ Exiting: One or more of the residuals, duality gap, or total relative error
  28595.1496
  ```
  
- ## Rezultatų apibendrinimas:
+ ## Rezultatų apibendrinimas su "E"
 
 X reikšmės | x1  | x2  | x3 | x4 | x5  |
  ---- | ---- | ---- |  ---- | ---- | ---- |
 Optimalus sprendinys | 0.0000 | 0.0993 | 351.7941 | 174.5203 | 78.1255
 
-Tikslo funkcijos optimali reikšmė yra 28595.1496.  
-Taigi, pridėjus naują prekę "E" iteracijų skaičius sumažėjo, tikslo funkcijos optimali reikšmė tapo didesnė.
+Tikslo funkcijos optimali reikšmė, pridėjus naują prekę "E", yra 28595.1496.  
+Taigi, pridėjus naują prekę "E", iteracijų skaičius sumažėjo, tikslo funkcijos optimali reikšmė padidėjo.
  
