@@ -114,7 +114,9 @@ for i=1:n
 end
 fprintf('\n %8.4f\n',-fval);
 ```
-## m failo rezultatai:   
+## m failo rezultatai:  
+
+```Matlab
   Residuals:   Primal     Dual     Duality    Total  
                Infeas    Infeas      Gap       Rel  
                A*x-b    A'*y+z-f    x'*z      Error  
@@ -137,7 +139,7 @@ Exiting: One or more of the residuals, duality gap, or total relative error
  x3 = 331.7006  
  x4 = 168.4804  
  24482.0760  
-
+```
 ## Rezultatų apibendrinimas:
 
 X reikšmės | x1  | x2  | x3 | x4
