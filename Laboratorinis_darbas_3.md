@@ -186,7 +186,7 @@ gamin_sk_apr_E = 250 + mod(20182746,150);
 disp("gamin_sk_apr_E");
 disp(gamin_sk_apr_E);
 ```
-## Lentelės ir apribojimų reikšmės:
+## Lentelės ir apribojimų reikšmės su "E":
 
 ```Matlab
 darbo_laikas_E
@@ -213,7 +213,7 @@ san_apr2_E
 gamin_sk_apr_E
    346
 ```
-## Kintamųjų lentelė:
+## Kintamųjų lentelė su "E":
 Reikšmė  | "A" | "B" | "C" | "D" | "E" |
  ---- | ---- | ---- |  ---- | ---- | ---- |
 Vieno darbininko darbo laikas vienos rūšies gaminio gamybai, (val.) | 5   |  4  |   3  |   6  |  9
@@ -221,3 +221,70 @@ Vieno darbininko darbo laikas vienos rūšies gaminio gamybai, (val.) | 5   |  4
 2 klasės sąnaudos vienam gaminiui | 14  |   9  |   7  |   3  |  6
 3 klasės sąnaudos vienam gaminiui | 2  |   7   |  5  |   1  |  10
 Pardavimo kaina, vnt. | 61  |  50  |  23  | 100 |  39
+
+## m failas su "E"
+
+```Matlab
+%ciklo ilgis
+n=length(pard_kaina_E); 
+%pridedame gaminį matriciniu pavidalu
+gam_E = [1 1 1 1 1];
+%jungiame masyvus vertikaliai su vertcat funkcija
+koef_E = vertcat(darbo_laikas_E, sanaudos_1_E, sanaudos_2_E, -gam_E);
+apribojimai_E = [gamyb_apr_E san_apr1_E san_apr2_E -gamin_sk_apr_E];
+%viršutinė riba
+virs_E = []; 
+%apatinė riba
+apat_E = zeros(n,1); 
+%kuriame optimizavimo struktūrą
+options = optimset; 
+%išvedame kiekvieną iteraciją į ekraną
+options.Display = 'iter';
+%pasirenkame algoritmą
+options.Algorithm = 'interior-point-legacy';
+%pritaikome linprog algoritmą
+[x,fval,exitflag,output,lambda] = linprog(-pard_kaina_E,koef_E,apribojimai_E,[],[],apat_E,virs_E,[],options);
+%Lagranžo daugikliai nelygybei
+Lagranzo_E = lambda.ineqlin;
+%ciklas iteracijų išvedimui į ekraną
+for i=1:n 
+    fprintf('\n x%1.0f = %8.4f',i,x(i));
+end
+fprintf('\n %8.4f\n',-fval);
+```
+## m failo rezultatai su "E":
+
+```Matlab
+Residuals:   Primal     Dual     Duality    Total
+               Infeas    Infeas      Gap       Rel
+               A*x-b    A'*y+z-f    x'*z      Error
+  ---------------------------------------------------
+  Iter    0:  1.20e+04 3.09e+02 1.34e+05 6.50e+04
+  Iter    1:  5.79e+03 5.33e+01 5.14e+04 4.24e+00
+  Iter    2:  5.19e+03 3.57e-11 1.91e+05 3.80e+00
+  Iter    3:  5.11e+03 2.90e-08 9.49e+06 3.75e+00
+  Iter    4:  5.11e+03 2.14e-01 2.06e+12 3.74e+00
+  Iter    5:  5.11e+03 1.10e-01 1.48e+12 3.74e+00
+  Iter    6:  5.11e+03 1.40e+01 1.67e+12 3.74e+00
+Exiting: One or more of the residuals, duality gap, or total relative error
+ has grown 100000 times greater than its minimum value so far:
+         the primal appears to be infeasible (and the dual unbounded).
+         (The dual residual < OptimalityTolerance=1.00e-08.)
+
+ x1 =   0.0000
+ x2 =   0.0993
+ x3 = 351.7941
+ x4 = 174.5203
+ x5 =  78.1255
+ 28595.1496
+ ```
+ 
+ ## Rezultatų apibendrinimas:
+
+X reikšmės | x_1  | x_2  | x3 | x4 | x5
+ ---- | ---- | ---- |  ---- | ---- | 
+Optimalus sprendinys | 0.0000 | 0.0993 | 351.7941 | 174.5203 | 78.1255
+
+Tikslo funkcijos optimali reikšmė yra 28595.1496.  
+Taigi, pridėjus naują prekę "E" iteracijų skaičius sumažėjo, tikslo funkcijos optimali reikšmė tapo didesnė.
+ 
