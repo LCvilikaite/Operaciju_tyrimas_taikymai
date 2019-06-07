@@ -282,7 +282,7 @@ Exiting: One or more of the residuals, duality gap, or total relative error
  ## Rezultatų apibendrinimas:
 
 X reikšmės | x_1  | x_2  | x3 | x4 | x5  |
- ---- | ---- | ---- |  ---- | ---- | 
+ ---- | ---- | ---- |  ---- | ---- | ---- |
 Optimalus sprendinys | 0.0000 | 0.0993 | 351.7941 | 174.5203 | 78.1255
 
 Tikslo funkcijos optimali reikšmė yra 28595.1496.  
