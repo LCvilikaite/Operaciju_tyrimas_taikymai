@@ -148,4 +148,76 @@ Optimalus sprendinys | 0.0019 | 0.0960 | 331.7006 | 168.4804
 
 Tikslo funkcijos optimali reikšmė yra 24482.0760.
 
+# Pridėkime naują prekę "E"
 
+Pridekime naują prekę „E“, suteikime jai savo parametrus ties sąnaudomis ir jos kaina. Patikrinkime, kiek iteracijų įvykdo programa dabar.
+
+```Matlab
+%apsibrėžiame kintamuosius iš sąlygos, pridedame prekę "E"
+darbo_laikas_E  = [5+mod(20182746,2) 4+mod(20182746,3) 1+mod(20182746,4) 5+mod(20182746,5) 8+mod(20182746,5)];
+%išvedame rezultatus su disp funkcija
+disp("darbo_laikas_E");
+disp(darbo_laikas_E);
+sanaudos_1_E  = [3+mod(20182746,7) 4+mod(20182746,5) 2+mod(20182746,9) 5+mod(20182746,3) 2+mod(20182746,7)];
+disp("sanaudos_1_E");
+disp(sanaudos_1_E);
+sanaudos_2_E  = [2+mod(20182746,13) 7+mod(20182746,4) 4+mod(20182746,9) 3+mod(20182746,3) 6+mod(20182746,1)];
+disp("sanaudos_2_E");
+disp(sanaudos_2_E);
+sanaudos_3_E  = [2+mod(20182746,6) 4+mod(20182746,7) 5+mod(20182746,6) 1+mod(20182746,3) 9+mod(20182746,5)];
+disp("sanaudos_3_E");
+disp(sanaudos_3_E);
+pard_kaina_E  = [60+mod(20182746,11) 50+mod(20182746,6) 20+mod(20182746,21) 70+mod(20182746,36) 39+mod(20182746,3)];
+disp("pard_kaina_E");
+disp(pard_kaina_E);
+%apsibrėžiame apribojimus
+%apribojimas gamybos terminui
+gamyb_apr_E = 780;
+%apribojimas pirmosioms sąnaudoms, gauname 492
+san_apr1_E=400 + 2* mod(20182746,100);
+disp("san_apr1_E");
+disp(san_apr1_E);
+%apribojimas antrosioms sąnaudoms, gauname 946
+san_apr2_E=700 + mod(20182746,300);
+disp("san_apr2_E");
+disp(san_apr2_E);
+%apribojimas gaminiams, gauname 346
+gamin_sk_apr_E = 250 + mod(20182746,150);
+disp("gamin_sk_apr_E");
+disp(gamin_sk_apr_E);
+```
+## Lentelės ir apribojimų reikšmės:
+
+```Matlab
+darbo_laikas_E
+     5     4     3     6     9
+
+sanaudos_1_E
+     6     5     5     5     5
+
+sanaudos_2_E
+    14     9     7     3     6
+
+sanaudos_3_E
+     2     7     5     1    10
+
+pard_kaina_E
+    61    50    23   100    39
+
+san_apr1_E
+   492
+
+san_apr2_E
+   946
+
+gamin_sk_apr_E
+   346
+```
+## Kintamųjų lentelė:
+Reikšmė  | "A" | "B" | "C" | "D" | "E" |
+ ---- | ---- | ---- |  ---- | ---- | ---- |
+Vieno darbininko darbo laikas vienos rūšies gaminio gamybai, (val.) | 5   |  4  |   3  |   6  |  9
+1 klasės sąnaudos vienam gaminiui | 6  |   5  |   5 |    5  |  5
+2 klasės sąnaudos vienam gaminiui | 14  |   9  |   7  |   3  |  6
+3 klasės sąnaudos vienam gaminiui | 2  |   7   |  5  |   1  |  10
+Pardavimo kaina, vnt. | 61  |  50  |  23  | 100 |  39
