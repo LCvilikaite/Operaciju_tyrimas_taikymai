@@ -59,6 +59,9 @@ Pardavimo kaina, vnt. | 61  |  50  |  23  | 100
 ## Užduoties matematinė išraiška
 
 ![](https://latex.codecogs.com/gif.latex?%5Cinline%205x_1%20&plus;%204x_2%20&plus;%203x_3%20&plus;%206x_4%20%5Cleq%20780)
+![](https://latex.codecogs.com/gif.latex?%5Cinline%206x_1%20&plus;%205x_2%20&plus;%205x_3%20&plus;%205x_4%20%5Cleq%20492)
+![](https://latex.codecogs.com/gif.latex?%5Cinline%2014x_1%20&plus;%209x_2%20&plus;%207x_3%20&plus;%203x_4%20%5Cleq%20946)
+![Užduoties matematinė išraiška](https://latex.codecogs.com/gif.latex?%5Cinline%20-x_1%20-%20x_2%20-%20x_3%20-%20x_4%20%5Cleq%20-346)
 
 ## m failas
 
