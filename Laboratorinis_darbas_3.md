@@ -41,7 +41,9 @@ disp("gamin_sk_apr");
 disp(gamin_sk_apr);
 ```
 
-## Rezultatai
+## Lentelės ir apribojimų reikšmės:
+
+```Matlab
 darbo_laikas  
      5     4     3     6  
 sanaudos_1  
@@ -58,7 +60,7 @@ san_apr2
    946  
 gamin_sk_apr  
    346  
-  
+ ```
 Įsistatome apskaičiuotas reikšmes į sąlygą:
 Gamybos terminas – dvi darbo savaitės, t.y., 10 darbo. Darbininkų darbo laiko ištekliai per 10 darbo dienų – 780 val.  
 Analogišką nelygybę 1 klasės sąnaudoms. Per dvi darbo savaites turi būti sunaudota ne daugiau kaip 492.  
@@ -112,7 +114,7 @@ for i=1:n
 end
 fprintf('\n %8.4f\n',-fval);
 ```
-## Rezultatai:
+## m failo rezultatai:
 
   Residuals:   Primal     Dual     Duality    Total  
                Infeas    Infeas      Gap       Rel  
