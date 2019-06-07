@@ -58,8 +58,7 @@ Pardavimo kaina, vnt. | 61  |  50  |  23  | 100
 
 ## Užduoties matematinė išraiška
 
- ![](<a href="https://www.codecogs.com/eqnedit.php?latex=5x_{1}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?5x_{1}" title="5x_{1}" /></a>)<br>
-
+![](https://latex.codecogs.com/gif.latex?%5Cinline%205x_1%20&plus;%204x_2%20&plus;%203x_3%20&plus;%206x_4%20%5Cleq%20780)
 
 ## m failas
 
