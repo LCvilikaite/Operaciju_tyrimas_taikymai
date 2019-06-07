@@ -93,6 +93,63 @@ for i=1:n
 end
 fprintf('\n %8.4f\n',-fval);
 ```
+Rezultatai:
 
+>> Laboratorinis_3
+darbo_laikas
+     5     4     3     6
+
+sanaudos_1
+     6     5     5     5
+
+sanaudos_2
+    14     9     7     3
+
+sanaudos_3
+     2     7     5     1
+
+pard_kaina
+    61    50    23   100
+
+san_apr1
+   492
+
+san_apr2
+   946
+
+gamin_sk_apr
+   346
+
+
+  Residuals:   Primal     Dual     Duality    Total
+               Infeas    Infeas      Gap       Rel
+               A*x-b    A'*y+z-f    x'*z      Error
+  ---------------------------------------------------
+  Iter    0:  9.24e+03 2.90e+02 1.15e+05 5.50e+04
+  Iter    1:  4.49e+03 4.47e+01 4.00e+04 3.28e+00
+  Iter    2:  4.14e+03 7.52e-12 3.51e+05 3.03e+00
+  Iter    3:  3.97e+03 1.86e-09 2.17e+05 2.90e+00
+  Iter    4:  3.97e+03 2.34e-03 5.83e+10 2.90e+00
+  Iter    5:  3.97e+03 1.41e-03 6.42e+10 2.90e+00
+  Iter    6:  3.97e+03 2.23e+05 7.25e+18 1.73e+03
+  Iter    7:  3.97e+03 3.08e+05 7.05e+18 2.38e+03
+Exiting: One or more of the residuals, duality gap, or total relative error
+ has grown 100000 times greater than its minimum value so far:
+         the primal appears to be infeasible (and the dual unbounded).
+         (The dual residual < OptimalityTolerance=1.00e-08.)
+
+ x1 =   0.0019
+ x2 =   0.0960
+ x3 = 331.7006
+ x4 = 168.4804
+ 24482.0760
+
+## Rezultatų apibendrinimas:
+
+X reikšmės | x1  | x2  | x3 | x4
+ ---- | ---- | ---- |  ---- | ---- | 
+Optimalus sprendinys | 0.0019 | 0.0960 | 331.7006 | 168.4804
+
+Tikslo funkcijos optimali reikšmė yra 24482.0760.
 
 
