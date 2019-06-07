@@ -114,8 +114,8 @@ for i=1:n
 end
 fprintf('\n %8.4f\n',-fval);
 ```
-## m failo rezultatai:
-
+## m failo rezultatai:  
+  
   Residuals:   Primal     Dual     Duality    Total  
                Infeas    Infeas      Gap       Rel  
                A*x-b    A'*y+z-f    x'*z      Error  
